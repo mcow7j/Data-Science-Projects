@@ -1,6 +1,8 @@
+
 ### Repo includes Python Notebooks submitted for Methods For Data Science Coursework at Imperial College London
 
 ## Project 1: Exploring unsupervised graph-based learning methods, clustering methods and neural networks for clothing image classification and academic paper clustering in Python
+
 ###Overview
 
 *Clustering of academic papers using K-Means, comparing different scoring metrics and analyzing optimal number of clusters and randomness in K-Means
