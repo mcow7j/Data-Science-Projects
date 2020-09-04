@@ -1,5 +1,5 @@
 
-## Projects 1-3 were submitted for the Methods of Data Science Course at Imperial College London, they are in Python Notebook form (to view in HTML form use https://htmlpreview.github.io/).
+#### Projects 1-3 were submitted for the Methods of Data Science Course at Imperial College London, they are in Python Notebook form (to view in HTML form use https://htmlpreview.github.io/).
 
 ### Project 1: Exporing regression and classification methods including ridge and logitstic regression and Naïve Bayes classifiers in Python
 #### Overview
