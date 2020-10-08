@@ -32,3 +32,18 @@ Goal: Predicting climbing success rate from weather predictors
 * Alteration of CNNs using dropout, other layers and alterations to kernel sizes to increase accuracy
 * K-Fold Stratified Cross-Validation used throughout
 * Community Detection using CNM	Clustering visualised with PCA
+
+### Python Projects:
+
+#### Insurance project
+
+* Basic Data cleaning exercise of some Head on Collision Claims Data.
+
+### R Projects
+
+#### Diet vs Courty
+
+* Sourced and cleaned dietary data for a variety of countries.
+* Performed a variety of eigenvalue analysis to see if there was any dimensionality to the data.
+* Completed Ordinal Scaling, Non-Ordinal Scaling, Procrustes seeing if there were clustering’s or patterns explainable trends.  
+
