@@ -44,7 +44,7 @@ Goal: Predicting climbing success rate from weather predictors
 #### Diet vs Country R Project
 
 * Sourced and cleaned dietary data for 53 random countries.
-* Performed a variety of eigenvalue analysis to see if there was any dimensionality to the data.
+* Performed eigenvalue analysis to see if there was any dimensionality to the data.
 * Completed Classical and Ordinal Scaling with a variety of metrics seeing if there were any trends.
 * Perfomed K-means on Scalings to further compare scalings or explainable trends.
 * Compared Scalings using Procrustes.  
