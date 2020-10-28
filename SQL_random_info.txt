@@ -1,0 +1,49 @@
+Statements supported by SQL:
+DDL (Data Definition Language)-CREATE, ALTER, and DROP
+DML (Data Manipulation Language)-INSERT, UPDATE, and DELETE.
+ DCL (Data Control Language)- GRANT and REVOKE.
+
+There are 5 major constraints are used in SQL:
+NOT NULL
+UNIQUE
+PRIMARY KEY
+FOREIGN KEY: It matches the value in one table with another using the PRIMARY KEY.
+CHECK: It ensures whether the value in columns fulfils the specified condition.
+
+4 types of Join:
+INNER JOIN: It is also known as SIMPLE JOIN which returns all rows from BOTH tables when it has at least one matching column.
+LEFT JOIN (LEFT OUTER JOIN): This join returns all rows from the LEFT table and its matched rows from a RIGHT table.
+RIGHT JOIN (RIGHT OUTER JOIN): This joins returns all rows from the RIGHT table and its matched rows from the LEFT table.
+FULL JOIN (FULL OUTER JOIN): This joins returns all results when there is a match either in the RIGHT table or in the LEFT table.
+
+There are 4 transaction controls in SQL:
+COMMIT: It is used to save all changes made through the transaction.
+ROLLBACK: All changes made by the transaction are reverted back and the database remains as before.
+SET TRANSACTION: Set the name of the transaction.
+SAVEPOINT: It is used to set the point where the transaction is to be rolled back.
+
+
+Properties of the transaction are known as ACID properties.
+Atomicity: Ensures the completeness of all transactions performed. Checks whether every transaction is completed successfully or not. If not, then the transaction is aborted at the failure point and the previous transaction is rolled back to its initial state as changes are undone.
+Consistency: Ensures that all changes made through successful transactions are reflected properly on the database.
+Isolation: Ensures that all transactions are performed independently and changes made by one transaction are not reflected on others.
+Durability: Ensures that the changes made in the database with committed transactions persist as it is even after a system failure.
+
+There are 7 aggregate functions in SQL:
+AVG(): Returns the average value from specified columns.
+COUNT(): Returns number of table rows.
+MAX(): Returns the largest value among the records.
+MIN(): Returns smallest value among the records.
+SUM(): Returns the sum of specified column values.
+FIRST(): Returns the first value.
+LAST(): Returns last value.
+
+Scalar functions are used to return a single value based on the input values.
+UCASE(): Converts the specified field in the upper case.
+LCASE(): Converts the specified field in lower case.
+MID(): Extracts and returns character from the text field.
+FORMAT(): Specifies the display format.
+LEN(): Specifies the length of the text field.
+ROUND(): Rounds up the decimal field value to a number.
+
+Triggers in SQL is kind of stored procedures used to create a response to a specific action performed on the table such as INSERT, UPDATE or DELETE
