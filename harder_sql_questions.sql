@@ -1,0 +1,25 @@
+SELECT CONCAT(NAME,'(',SUBSTRING(OCCUPATION, 1, 1),')') FROM OCCUPATIONS ORDER BY NAME;
+
+SELECT 'There are a total of ', COUNT(OCCUPATION),' ',CONCAT(LOWER(OCCUPATION),'s.')
+FROM OCCUPATIONS GROUP BY OCCUPATION ORDER BY COUNT(Occupation), OCCUPATION;
+
+select (salary * months)as EARNINGS ,count(*) from employee group by EARNINGS order by earnings desc limit 1;
+
+
+
+SELECT Students.Name, Grades.Grade, Students.Marks FROM Students INNER JOIN Grades ON
+Students.Marks BETWEEN Grades.Min_Mark AND Max_Mark WHERE Grades.Grade > 7 ORDER BY Grades.Grade DESC, Students.Name ASC;
+
+
+SELECT W.id, P.age, W.coins_needed, W.power
+FROM WANDS AS W
+    INNER JOIN WANDS_PROPERTY AS P ON W.code = P.code
+WHERE P.is_evil = 0 AND W.coins_needed =
+    (SELECT MIN(coins_needed)
+     FROM WANDS AS W1
+        INNER JOIN WANDS_PROPERTY AS P1 ON W1.code = P1.code
+     WHERE W1.power = W.power AND P1.age = P.age)
+ORDER BY W.power DESC, P.age DESC
+
+
+SELECT BUYER_ID,SUM(PRICE) FROM HOUSE JOIN PRICE ON HOUSE.HOUSE_ID=PRICE.HOUSE_ID GROUP BY BUYER_ID HAVING SUM(PRICE)>100;
