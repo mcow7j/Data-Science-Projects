@@ -39,6 +39,14 @@ Goal: Predicting climbing success rate from weather predictors
 
 * Basic Data cleaning exercise of some Head on Collision Claims Data.
 
+### Stocks project
+
+* Explores the possibility of predicting daily returns (or the sign) on some random stocks given 15 random features.
+* Cleaned and combined 3 data frames, splitting time series data into training and test sets. 
+* Used various statistics like Pearson Correlation and methods such as PCA to analyse features.
+* Fitted a basic Ridge Regression to data, optimising hyper parameters.
+* Fitted and analysed an ARIMA model.
+
 ### R Projects
 
 #### Diet vs Country R Project
