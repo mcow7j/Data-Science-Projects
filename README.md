@@ -39,7 +39,7 @@ Goal: Predicting climbing success rate from weather predictors
 
 * Basic Data cleaning exercise of some Head on Collision Claims Data.
 
-### Stocks project
+#### Stocks project
 
 * Explores the possibility of predicting daily returns (or the sign) on some random stocks given 15 random features.
 * Cleaned and combined 3 data frames, splitting time series data into training and test sets. 
