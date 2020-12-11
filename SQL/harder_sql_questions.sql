@@ -43,3 +43,17 @@ from(
   order by Name
 ) Temp
 group by RowNumber;
+
+/*
+JOINS MULTPLE TABLES TOGETHER
+*/
+
+SELECT Company.company_code,Company.founder, COUNT(DISTINCT(Lead_Manager.lead_manager_code)),
+COUNT(DISTINCT(Senior_Manager.Senior_Manager_code)),
+COUNT(DISTINCT(Manager.Manager_code)),
+COUNT(DISTINCT(Employee.Employee_code))
+FROM Company RIGHT JOIN Lead_Manager ON Company.company_code=Lead_Manager.company_code 
+RIGHT JOIN Senior_Manager ON Company.company_code=Senior_Manager.company_code 
+RIGHT JOIN Manager ON Company.company_code=Manager.company_code
+RIGHT JOIN Employee ON Company.company_code=Employee.company_code
+GROUP BY company_code,founder ORDER BY  company_code ASC;
